@@ -5,7 +5,7 @@ const HTMLPlugin = require('html-webpack-plugin');
 
 module.exports = {
   devtool: 'eval',
-  entry: `{__dirname}/src/main.js`,
+  entry: `${__dirname}/src/main.js`,
   output: {
     //what to name the bundle
     filename: `bundle-[hash].js`,
